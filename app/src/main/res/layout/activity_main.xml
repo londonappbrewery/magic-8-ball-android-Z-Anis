@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    android:id="@+id/activity_main"
+<RelativeLayout android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    tools:context=".MainActivity">
+    android:background="#22c8d2"
+    tools:context=".MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="#7522d2"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ball1"/>
 </RelativeLayout>
