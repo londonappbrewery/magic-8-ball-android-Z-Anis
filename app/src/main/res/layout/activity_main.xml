@@ -8,7 +8,6 @@
     android:paddingBottom="16dp"
     android:background="#22c8d2"
     tools:context=".MainActivity"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:ignore="ExtraText">
 
     <TextView
@@ -21,7 +20,7 @@
         android:paddingTop="10dp"
         android:background="#7522d2"
         android:textStyle="bold"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="#FFF"
         android:layout_marginTop="50dp"/>
 
@@ -42,6 +41,6 @@
         android:background="#226dd2"
         android:textColor="#FFF"
         android:textStyle="bold"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
 </RelativeLayout>

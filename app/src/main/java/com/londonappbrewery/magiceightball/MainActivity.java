@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Button ask = findViewById(R.id.button);
 
         final ImageView ball = findViewById(R.id.ball);
-
+        ball.setImageResource(R.drawable.ball5);
         final int[] array = {
                 R.drawable.ball1,
                 R.drawable.ball2,
